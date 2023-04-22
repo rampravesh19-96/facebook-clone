@@ -680,7 +680,7 @@ nav{
 
 /* ------------- media query for home page --------------- */
 
-@media (max-width:900px){
+@media (max-width:1080px){
     .right-sidebar{
         display: none;
     }
@@ -742,7 +742,7 @@ nav{
 
 /* -------------------- media query for profile page ------------------- */
 
-@media (max-width:900px){
+@media (max-width:1080px){
     .profile-container{
         padding: 20px 5%;
     }
