@@ -1,9 +1,16 @@
-*{
+
+* {
     margin: 0;
     padding: 0;
-    font-family: 'poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
+
+/* The rest of your code follows */
+
 
 
 :root{
@@ -23,9 +30,6 @@ body{
     transition: background 0.3s;
 }
 
-/* body{
-    background: var(--bg-color);
-} */
 nav{
     display: flex;
     align-items: center;
@@ -766,4 +770,65 @@ nav{
     .info-col,.post-col{
         flex-basis: 100%;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a:hover {
+    color: #1876f2;
+}
+.main-content {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* .search-box input {
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+} */
+
+.search-box input:focus {
+    border-color: #1876f2;
+}
+.online::after {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.event:hover {
+    background: #f2f2f2;
+}
+.shortcut-links a:hover {
+    background: #f2f2f2;
+}
+.sidebar-adss:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.sidebar-adss:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.sidebar-title {
+    border-bottom: 1px solid #ccc;
+}
+.sidebar-title a:hover {
+    text-decoration: underline;
 }
