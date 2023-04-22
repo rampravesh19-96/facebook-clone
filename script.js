@@ -227,12 +227,7 @@ const eventsData = [
       location: 'Willson Tech Park',
       link: '#',
     },
-    {
-        date: '18 March',
-        name: 'Social Media',
-        location: 'Willson Tech Park',
-        link: '#',
-      },
+
   ];
   
   const onlineListData = [
@@ -247,10 +242,6 @@ const eventsData = [
     {
       name: 'Samona Rose',
       imgSrc: 'images/member-3.png',
-    },
-    {
-      name: 'Alison Mina',
-      imgSrc: 'images/member-1.png',
     },
   ];
   
